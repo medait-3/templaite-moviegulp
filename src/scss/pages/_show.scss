@@ -1,0 +1,29 @@
+#show{
+	.movie{
+		padding: 8% 0;
+		background: $black;
+		min-height: 100vh;
+		position: relative;
+		.movie__bg{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			 background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("../images/1.jpg");
+   
+			filter: blur(7px);
+		}
+		.movie__play{
+			height: 100px;
+			width: 100px;
+			background: $primary;
+			border-radius: 50%;
+		}
+		.movie__name{
+			font-size: 3rem;
+			
+		}
+	}
+}

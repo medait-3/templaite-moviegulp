@@ -1,0 +1,27 @@
+//bootstrap variable
+@import "../bootstrap/functions";
+@import "../bootstrap/variables";
+
+
+//pages
+@import "pages/login";
+@import "pages/index";
+@import "pages/show";
+
+ body{
+ background: $black;
+
+ font-family: 'Ibarra Real Nova', serif;
+ }
+ .bg-black{
+ 	background: rgba($black,0.8);
+ }
+ .fw-400{
+ font-weight:400;
+ }
+  .fw-600{
+ font-weight:600;
+ }
+  .fw-700{
+ font-weight:700;
+ }
